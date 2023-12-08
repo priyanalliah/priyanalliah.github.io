@@ -1,0 +1,5 @@
+---
+title: "About"
+---
+
+Hello! My name is Priya Nalliah and I am a master's student at UTD. I am to create meaningful data visualization projects on this website.
