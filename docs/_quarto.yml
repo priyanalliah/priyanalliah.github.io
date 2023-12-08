@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs 
+
+website:
+  title: "Priya Nalliah's Website"
+  navbar: 
+    left:
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about.qmd
+      - text: Assignments
+        menu:
+        - text: Assignment 1 
+          href: Assignment 1.qmd
+        - text: Assignment 2
+          href: Assignment 2.qmd
+        - text: Assignment 3 
+          href: Assignment 3.qmd
+        - text: Assignment 4 (Hackathon)
+          href: Hackathon.qmd
+        - text: Assignment 5 
+          href: Assignment 5.qmd
+        - text: Assignment 6 
+          href: Assignment 6.qmd
+        - text: Assignment 7 (Hackathon 2)
+          href: Assignment 7.qmd
+        - text: Assignment 8 
+          href: Assignment 8.qmd
+        - text: Assignment 9 
+          href: Assignment 9.qmd
+        - text: Assignment 10 
+          href: Assignment 10.qmd  
+      - text: Hackathon
+        href: Hackathon.qmd
+      - text: Project
+        menu: 
+          - text: Proposal
+            href: Proposal.qmd
+          - text: Final Project Dashboard
+            href: finalproject.html
+          - text: Final Project Presentation
+            href: EPPS6356_DataVis_Presentation.pdf
+          
+format:
+  html:
+    theme: cosmo 
+    css: styles.css
+    toc: true
+
+editor: visual
+
